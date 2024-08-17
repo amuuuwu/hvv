@@ -1,0 +1,330 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("fraise.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+}
+
+.content-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper {
+    text-align: center;
+    max-width: 800px; 
+}
+
+h1 {
+    color: rgb(235, 69, 141);
+}
+
+h2 {
+    color: rgb(136, 63, 64);
+}
+
+h3 {
+    color: rgb(136, 63, 64);
+    margin-left: auto;
+}
+
+.logo {
+ 
+        width: 70px; 
+        height: 70px;
+        border-radius: 50%; 
+        object-fit: cover; 
+    }
+
+
+.presentation {
+    width: 400px;
+    border: 2px solid rgb(231, 75, 153); 
+    padding: auto; 
+    margin: 40px; 
+    text-align: auto; 
+    background-color: #FDF5F3;
+}
+
+
+.intro {
+    width: auto;
+    border: 2px solid rgb(231, 75, 153); 
+    padding: auto; 
+    margin: auto; 
+    text-align: auto; 
+    background-image: url("navar keyboard.jpeg");
+    margin-right: auto;
+
+}
+.blbl {
+     width: auto;
+        padding: auto; 
+        margin: auto; 
+        text-align: auto; 
+        margin-right: auto;
+       }
+
+.Profile {
+    width: 400px;
+    border: 2px solid rgb(231, 75, 153); 
+    padding: auto; 
+    margin: auto; 
+    text-align: auto; 
+    background-color: #FDF5F3;  
+}
+
+.tailleprofil {
+    text-size-adjust: 500px;
+}
+
+
+p {
+    font-size: 20px;
+    color: rgb(235, 69, 141);
+    margin-left: 20px;
+}
+
+ .global {
+    width: auto;
+    border: 2px solid rgb(231, 75, 153); 
+    padding: 20px; 
+    margin: 5px; 
+    text-align: auto; 
+    background-image: url("coquette.gif");
+    margin-right: 30px;
+ }
+ 
+ 
+.center-container {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center; 
+    height: auto;            
+    margin-top: 20px;
+}
+
+.gif {
+    width: 100px;  
+    height: auto;
+    margin-bottom: 10px;
+    border-image-repeat: 5; 
+}
+.gif-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 10px;             
+    margin-top: 20px;    
+}
+
+.logopos {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;   }            
+
+
+.profile-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    margin-top: 20px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 250px; 
+    text-align: center;
+}
+
+#defile .goofy {
+    display: flex;             
+    overflow-x: auto;          
+    gap: 10px;              
+    padding: 10px;
+    background-color: #f0f0f000; 
+}
+
+#defile .goofy img {
+    height: 40px;             
+    width: auto; 
+    animation-duration: 20s;
+    animation-name: mesGifs;   
+    animation-iteration-count: infinite;           
+}
+
+
+@keyframes mesGifs {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-640px);
+    }
+    50% {
+        transform: translateX(-1280px);
+    }
+    75% {
+        transform: translateX(-1920px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+
+
+}
+
+
+
+nav.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url("🌷🐇.jpeg"); 
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navbar li {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.navbar li a {
+    color: #7e434c;
+    text-decoration: none;
+    
+}
+
+.navbar li a:hover {
+    color: #ffa1ba;
+}
+
+
+ @font-face {
+    font-family: kinkie;
+    src: url(https://dl.dropbox.com/s/b2jkn3py4agc9nn/kinkie.regular.ttf);
+ }           
+    #wobble {
+  font-family: kinkie;
+ }
+
+ 
+ 
+@font-face {
+font-family: hello kitty;
+src:url(https://dl.dropbox.com/s/l5kzvuqppwfxa9z/hellokittyfont.ttf);
+} 
+
+#hellokitty {
+font-family: hello kitty;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f5f5f5; 
+}
+
+.left-frame {
+    position: absolute; 
+    left: 60px; 
+    top: 10px; 
+    width: 200px; 
+    height: 100%; 
+    padding: 20px;
+    border: 2px solid #8B4513; 
+    background-color: #ffdaec; 
+    z-index: 1000; 
+}
+
+.main-content {
+    margin-left: 220px; 
+    padding: 20px;
+    background-color: #ff8b8b00; 
+    flex-grow: 1; 
+}
+
+
+
+.left-frame {
+    position: absolute; 
+    left: 60px; 
+    top: 10px; 
+    width: 200px; 
+    height: 1135px; 
+    padding: 20px;
+    border: 2px solid #703d3d; 
+    background-image: url("fondecran2.jpeg");
+    z-index: 1000; 
+    overflow-x: hidden;
+    border: 2px solid #d41f89; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.left-frame img {
+    min-width: none; 
+    max-width: 200px; 
+    min-height: none; 
+    max-height: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    image-orientation: center;
+}
+
+.rectangle-droit {
+    position: absolute; 
+    right: 60px; 
+    top: 10px; 
+    width: 200px; 
+    height: 1135px; 
+    padding: 20px;
+    border: 2px solid #703d3d; 
+   background-image: url("fondecran2.jpeg");
+    z-index: 1000; 
+    overflow-x: hidden;
+    border: 2px solid #d41f89; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.rectangle-droit img {
+    min-width: none; 
+    max-width: 200px; 
+    min-height: none; 
+    max-height: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    image-orientation: center;
+}
+
+.iu {
+    display: flex;
+}
